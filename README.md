@@ -121,4 +121,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Made with ❤️ by Pietra Duran | © 2024
+Made with ❤️ by Pietra Duran | © 2025
