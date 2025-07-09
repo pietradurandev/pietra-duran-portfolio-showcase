@@ -1,73 +1,124 @@
-# Welcome to your Lovable project
 
-## Project info
+# Pietra Duran - Portfolio Website
 
-**URL**: https://lovable.dev/projects/6816efb3-60bf-43e8-92df-0fa5e02f748e
+A modern, responsive portfolio website showcasing my journey as a Computer Science student and aspiring full-stack developer.
 
-## How can I edit this code?
+## 🌟 About
 
-There are several ways of editing your application.
+This portfolio website presents my skills, education, and passion for technology. Built with modern web technologies, it reflects my commitment to clean code and user-friendly design.
 
-**Use Lovable**
+## 🚀 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6816efb3-60bf-43e8-92df-0fa5e02f748e) and start prompting.
+- **Responsive Design**: Optimized for all devices and screen sizes
+- **Modern UI/UX**: Clean, professional design with smooth animations
+- **Interactive Sections**: 
+  - Hero section with profile image and introduction
+  - About me with personal details
+  - Skills showcase organized by categories
+  - Projects section (ready for future additions)
+  - Education timeline
+  - Contact information with direct links
+- **Smooth Navigation**: Seamless scrolling between sections
+- **Dark/Light Theme Support**: Built with theme flexibility in mind
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Technologies Used
 
-**Use your preferred IDE**
+- **Frontend Framework**: React 18
+- **Build Tool**: Vite
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Icons**: Lucide React
+- **State Management**: React Query (TanStack Query)
+- **Routing**: React Router DOM
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📦 Installation & Setup
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
 
-Follow these steps:
+### Getting Started
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd pietra-portfolio
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+4. **Open your browser**
+   Navigate to `http://localhost:8080` to view the portfolio
+
+## 🏗️ Build for Production
+
+```bash
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+The production-ready files will be generated in the `dist` folder.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📁 Project Structure
 
-**Use GitHub Codespaces**
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # shadcn/ui components
+│   ├── Hero.tsx        # Landing section
+│   ├── About.tsx       # About me section
+│   ├── Skills.tsx      # Skills showcase
+│   ├── Projects.tsx    # Projects section
+│   ├── Education.tsx   # Education timeline
+│   └── Contact.tsx     # Contact information
+├── pages/              # Page components
+│   ├── Index.tsx       # Main portfolio page
+│   └── NotFound.tsx    # 404 page
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+└── App.tsx            # Main application component
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎨 Design System
 
-## What technologies are used for this project?
+The portfolio uses a consistent design system with:
+- **Color Palette**: Professional gradients and modern color schemes
+- **Typography**: Clean, readable fonts
+- **Spacing**: Consistent padding and margins
+- **Components**: Reusable UI elements from shadcn/ui
 
-This project is built with:
+## 📧 Contact
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Email**: [pietradurandev@gmail.com](mailto:pietradurandev@gmail.com)
+- **GitHub**: [@pietradurandev](https://github.com/pietradurandev)
+- **LinkedIn**: [pietra-duran](https://www.linkedin.com/in/pietra-duran-bb916128b)
 
-## How can I deploy this project?
+## 🚧 Future Enhancements
 
-Simply open [Lovable](https://lovable.dev/projects/6816efb3-60bf-43e8-92df-0fa5e02f748e) and click on Share -> Publish.
+- [ ] Add real projects as they are completed
+- [ ] Implement blog section for tech articles
+- [ ] Add testimonials section
+- [ ] Integrate with headless CMS for easy content updates
+- [ ] Add project filtering and search functionality
 
-## Can I connect a custom domain to my Lovable project?
+## 📄 License
 
-Yes, you can!
+This project is open source and available under the [MIT License](LICENSE).
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🙏 Acknowledgments
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- Built with [Lovable](https://lovable.dev) - AI-powered web development platform
+- UI components from [shadcn/ui](https://ui.shadcn.com/)
+- Icons from [Lucide](https://lucide.dev/)
+
+---
+
+Made with ❤️ by Pietra Duran | © 2024
